@@ -20,8 +20,7 @@ REM   https://github.com/swig/swig/issues/769
 
 REM You need to modify the paths below:
 set vsdevcmd=C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\Tools\VsDevCmd.bat
-
-set python64_dir=C:\Users\Pichau\AppData\Local\Programs\Python\Python39
+set python64_dir=<YOUR_PYTHON_HOME_PATH>
 
 set revision=llvmorg-17.0.1
 set package_version=17.0.1
@@ -37,6 +36,7 @@ mkdir %build_dir%
 cd %build_dir%
 
 echo Checking out %revision%
+curl -L https://github.com/llvm/llvm-project/archive/%revision%.zip -o src.zip || exit /b
 7z x ..\src.zip || exit /b
 mv llvm-project-* llvm-project || exit /b
 
