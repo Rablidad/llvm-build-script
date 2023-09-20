@@ -8,3 +8,7 @@ to get the path for your python installation, you can simply run in the command 
   * Cmake, you can get the latest release from the official page here: https://cmake.org/download/
   * 7z for windows, you can get the latest release from the official page here: https://www.7-zip.org/download.html
   * Perl for windows, you can get the latest release from the official page here: https://www.perl.org/get.html
+  * Visual studio, you can get the latest release from the official page here: https://visualstudio.microsoft.com/downloads/
+
+## Building:
+.\build-llvm.bat
