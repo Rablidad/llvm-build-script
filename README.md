@@ -11,4 +11,4 @@ to get the path for your python installation, you can simply run in the command 
   * Visual studio, you can get the latest release from the official page here: https://visualstudio.microsoft.com/downloads/
 
 ## Building:
-.\build-llvm.bat
+.\build_llvm.bat
