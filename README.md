@@ -10,5 +10,7 @@ to get the path for your python installation, you can simply run in the command 
   * Perl for windows, you can get the latest release from the official page here: https://www.perl.org/get.html
   * Visual studio, you can get the latest release from the official page here: https://visualstudio.microsoft.com/downloads/
 
+`NINJA, CMAKE, 7z and Perl` must be in PATH
+
 ## Building:
 .\build_llvm.bat
